@@ -2,11 +2,11 @@
 
 > *"Se errares na abertura de atividade, podes pagar essa escolha durante anos. Se a fizeres bem, tens a base para uma vida profissional tranquila."*
 
-Já analisei milhares de processos de profissionais liberais ao longo da minha carreira. E posso dizer-te com toda a certeza: **mais de metade dos erros fiscais que um profissional liberal comete ao longo da vida são consequência directa de decisões erradas no dia em que abriu atividade.**
+Já analisei centenas de processos de profissionais liberais ao longo da minha carreira. E posso dizer-te com toda a certeza: **muitos dos erros fiscais que um profissional liberal comete ao longo da vida são consequência directa de decisões erradas no dia em que abriu atividade.**
 
-Escolher o CAE errado. Enquadrar-se mal no CIRS. Optar pelo regime simplificado quando devia ter ido para organizada. Marcar "regime normal de IVA" sem saber que podia ficar isento. Não pedir a dispensa de retenção. Esquecer-se de ir à Segurança Social.
+Escolher o CAE errado. Enquadrar-se mal no CIRS. Optar pelo regime simplificado quando devia ter ido para Contabilidade Organizada. Marcar "regime normal de IVA" sem saber que podia ficar isento. Não pedir a dispensa de retenção. Esquecer-se de ir à Segurança Social.
 
-Cada um destes erros pode custar-te milhares de euros ao longo dos anos. E, pior, alguns deles só se percebem quando a AT bate à porta — tipicamente quatro ou cinco anos depois.
+Cada um destes erros pode custar-te milhares de euros ao longo dos anos. E, pior, alguns deles só se percebem quando a AT bate à porta — tipicamente alguns anos depois.
 
 Por isso, este capítulo é o mais importante do livro para quem ainda não começou. E se já começaste, serve-te de **checklist de auditoria ao que fizeste na altura**. Muitas decisões podem ser revertidas — mas só se as detectares.
 
@@ -35,13 +35,13 @@ Isto não precisa de ser exato. Uma estimativa realista serve — mas serve para
 - Cenário realista (o mais provável)
 - Cenário optimista (se tudo correr bem)
 
-> **💡 Dica do Inspetor:** Muitos profissionais liberais colocam no início de atividade uma faturação baixíssima porque "não querem chamar atenção". É um erro. A AT não olha para isso. E podes bloquear-te a ti próprio — por exemplo, se meteres 5.000€ previstos, podes ser colocado em isenção de IVA e depois ter de pagar IVA em atraso se ultrapassares.
+> **💡 Dica do Inspetor:** Muitos profissionais liberais colocam no início de atividade uma previsão de faturação baixa ou muito baixa porque "não querem chamar atenção" ou "não sabem se vai dar resultado". Em alguns casos, até pode estar correto, noutros casos é o contrário. Deves ter em atenção que o montante que selecionares será "anualisado", para o fazer corresponder aos 12 meses do ano. Tem isso em consideração, pois se pretenderes ficar abrangido pelo Regime de Isenção do Artigo 53º do CIVA, esse valor "anual" não poderá ultrapassar o limite ali definido que é, atualmente, de 15.000,00 euros. Um conselho: se a tua intenção for "ficar isento de IVA" no teu primeiro ano de atividade, lê com atenção o artigo 53º do Código do IVA, ou pede ajuda para isso (pois trata-se de uma leitura muito técnica), antes mesmo do "início de atividade".
 
 **3. Tens NIF (Número de Identificação Fiscal)?**
 Se és cidadão português ou residente, sim, tens. Se és estrangeiro, precisas de o obter primeiro. Sem NIF não há nada a fazer nas Finanças.
 
 **4. Tens conta bancária pronta?**
-Vais precisar de IBAN para indicar no Portal das Finanças (para reembolsos de IRS ou IVA) e para receber dos teus clientes. **Aproveita para abrir uma conta separada para a atividade profissional** — não misturar pessoal com profissional vai-te poupar horas de dores de cabeça.
+Vais precisar de IBAN para indicar no Portal das Finanças (para reembolsos de IRS ou IVA) e para receber dos teus clientes. **Aproveita para abrir uma conta separada para a atividade profissional** — não misturar pessoal com profissional vai-te poupar muitas dores de cabeça.
 
 **5. Tens Chave Móvel Digital activada?**
 Vai facilitar imenso. Podes autenticar-te no Portal das Finanças com ela em vez da senha de contribuinte. Em caso afirmativo, fica uma coisa a menos para memorizar.
@@ -53,7 +53,7 @@ Vai facilitar imenso. Podes autenticar-te no Portal das Finanças com ela em vez
 Há uma ordem certa para fazer as coisas:
 
 ```
-1. Abrir atividade no Portal das Finanças
+1. Abrir atividade nas Finanças. Pode ser online (no Portal das Finanças) ou em qualquer Serviço de Finanças
    ↓
 2. (A Segurança Social é notificada automaticamente)
    ↓
@@ -61,15 +61,15 @@ Há uma ordem certa para fazer as coisas:
    ↓
 4. Contratar o seguro de acidentes de trabalho
    ↓
-5. Escolher e configurar o software de faturação
+5. Escolher e configurar o software de faturação (se quiseres, podes emitir as Faturas ou Faturas/Recibo diretamente no Portal das Finanças)
    ↓
 6. Emitir a primeira fatura
 ```
 
-Muitos contabilistas dizem para começares pela Segurança Social. **Não é exato.** O procedimento oficial é o inverso: abres atividade nas Finanças e a Segurança Social é notificada automaticamente. Mas há detalhes na Segurança Social (como o escalão de rendimento) que precisas de ir lá confirmar.
+Alguns contabilistas podem sugerir que comeces pela Segurança Social. **Não é exato.** O procedimento oficial é o inverso: abres atividade nas Finanças e a Segurança Social é notificada automaticamente. Mas há detalhes na Segurança Social (como o escalão de rendimento) que precisas ir lá confirmar.
 
-> **⚠️ Atenção:** A declaração de início de atividade deve ser submetida **antes de iniciares a atividade** ou, no limite, no próprio dia. **Nunca depois.** Se emitires uma fatura antes de ter atividade aberta, entras em situação irregular desde o primeiro dia. Já vi imensa gente apanhada por causa disto.
-
+> **💡 Dica do Inspetor:** A declaração de início de atividade deve ser submetida **antes de iniciares a atividade** ou, no limite, no próprio dia. **Nunca depois.** Se emitires uma fatura antes de ter "atividade aberta nas Finanças", entras em situação irregular desde o primeiro dia e ficas logo com obrigações acessórias, além de teres de liquidar IVA por se tratar daquilo que se designa por Ato Isolado. É um erro a não cometer.
+Quanto à inscrição na Segurança Social, vê se te encontras em algum dos casos em que podes pedir a isenção de contribuições para a Segurança Social. Se for o teu caso, não deixes de aproveitar.
 ---
 
 ## 2.3. Passo a passo no Portal das Finanças
@@ -94,6 +94,7 @@ Vou detalhar a via online, que é a mais usada e mais rápida.
 
 Demora, em média, 15 minutos se souberes o que estás a fazer. Se não souberes, podes estar lá duas horas e ainda assim escolher mal. Por isso vamos aos detalhes.
 
+ 
 ---
 
 ## 2.4. Escolha do CAE (Código de Atividade Económica)
@@ -104,7 +105,7 @@ O **CAE** identifica o tipo de atividade económica que exerces. É um código n
 
 1. Consulta o [**Portal SICAE**](http://www.sicae.pt/consulta.aspx) — pesquisa por palavras-chave a atividade que vais exercer
 2. Escolhe o CAE mais **específico** que se aplica ao teu caso
-3. Podes ter **vários CAE** ao mesmo tempo (um principal + secundários)
+3. Podes ter **vários CAE** ao mesmo tempo (um CAE principal + CAE´s secundários)
 
 ### Exemplos de CAE comuns para profissionais liberais
 
@@ -122,11 +123,11 @@ O **CAE** identifica o tipo de atividade económica que exerces. É um código n
 | Formador | 85591 |
 | Tradutor | 74300 |
 
-> **📌 Caso Real:** Lembro-me de um designer que abriu atividade como "Comércio a retalho de vestuário" porque também vendia t-shirts com os seus designs. Foi apanhado anos depois porque o CAE não permitia o coeficiente de 0,75 que ele estava a usar no IRS. Resultado: milhares de euros em liquidações adicionais. **Se exerces múltiplas atividades, declara-as TODAS.**
+> **📌 Caso Real:** Lembro-me de um designer que abriu atividade como "Comércio a retalho de vestuário" porque também vendia t-shirts com os seus designs. Alguns anos depois, foi inspecionado pela AT e objeto de correção em montante significativo, porque o CAE não estava adequado à correta tributação dos rendimentos da atividade efetivamente exercida. **Se exerces múltiplas atividades, declara-as TODAS.**
 
 ### Atenção ao CIRS (Código do IRS)
 
-Além do CAE, vais ter de indicar o **CIRS** (artigo 151.º do Código do IRS) — a tabela de atividades específica do fisco. Não é a mesma coisa que o CAE. Tem menos códigos, mas é o que determina a tributação.
+Há atividades exercidas em nome individual que estão abrangidas pelos CAE. Mas há outras atividades que estão relacionadas na Tabela de Atividades Específicas do artigo 151.º do Código do IRS. Não é a mesma coisa que o CAE. A escolha de um ou de outro depende da atividade que vais exercer e pode ter diferentes implicações na forma como os rendimentos serão tributados em IRS. 
 
 Os CIRS mais comuns para profissionais liberais incluem:
 
@@ -157,7 +158,7 @@ Podes ficar **isento de IVA** se cumprires **todas** estas condições:
 
 **Desvantagens:**
 - Não podes deduzir o IVA das tuas despesas (combustível, equipamento, serviços)
-- Se ultrapassares o limite, vais a regime normal — e podes ter de pagar IVA em atraso
+- Se ultrapassares o limite (em qualquer altura do ano), transitas automaticamente a partir daí para o Regime Normal de IVA, em princípio com periodicidade trimestral
 
 ### Regime Normal de IVA
 
@@ -170,13 +171,13 @@ Podes ficar **isento de IVA** se cumprires **todas** estas condições:
 **Como funciona:**
 - Cobras IVA nas tuas faturas (taxa normal 23%, intermédia 13%, reduzida 6% — depende do serviço)
 - Podes deduzir o IVA das despesas profissionais
-- Entregas a diferença ao Estado (ou pedes reembolso se deduziste mais do que cobraste)
+- Entregas a diferença ao Estado, ou acumulas um crédito a teu favor. Esse crédito transita para o període IVA seguinte ou, em determinadas condições, pode ser objeto de pedido de reembolso.
 
-> **💡 Dica do Inspetor:** Se trabalhas sobretudo com **empresas** (não particulares), o IVA não te "encarece" — o cliente deduz-o. **E tu podes deduzir o teu.** Nestes casos, vale a pena optar por regime normal mesmo abaixo dos 15.000€. Se trabalhas sobretudo para **particulares** que não deduzem IVA, a isenção é geralmente melhor — os teus serviços ficam 23% mais baratos para eles.
+> **💡 Dica do Inspetor:** Se trabalhas sobretudo com **empresas** (não particulares), o IVA não te "encarece" — o cliente deduz o IVA que lhe liquidares nas faturas que emites e tu podes deduzir o IVA suportado nos bens, produtos e serviços que adquires. Nestes casos, pode valer a pena optar por Regime Normal de IVA, mesmo abaixo dos 15.000€ de faturação anual. Se trabalhas sobretudo para **particulares** que não deduzem IVA, a isenção é geralmente melhor — os teus serviços ficam 23% mais baratos para eles.
 
 ### Isenções específicas por profissão
 
-Há profissões que beneficiam de **isenções próprias** no IVA, independentes do limite do art. 53.º:
+Há profissões que beneficiam de **isenções próprias** no IVA, independentes do limite do art. 53.º do CIVA:
 
 - **Médicos, dentistas, fisioterapeutas, psicólogos e outros profissionais de saúde** — Art. 9.º, n.º 1 do CIVA. Os serviços de saúde prestados são isentos.
 - **Formadores com certificação DGERT** — Art. 9.º, n.º 10. Formação profissional certificada é isenta.
@@ -194,8 +195,8 @@ Tens duas opções para o teu IRS Categoria B:
 
 - **Aplicável a** rendimento anual ≤ 200.000€
 - Aplicado **por defeito** se não optares por outro
-- **Não precisas de contabilista** certificado
-- **Não precisas de guardar todas as faturas de despesas** (embora seja boa prática guardar sempre)
+- Não precisas de contabilista certificado
+- Não precisas de guardar todas as faturas de despesas (embora seja boa prática guardar sempre)
 - Pagas IRS sobre uma **percentagem do teu rendimento bruto** — o resto é considerado "despesa presumida"
 
 **Coeficientes principais** (aplicados ao rendimento bruto):
@@ -211,26 +212,26 @@ Tens duas opções para o teu IRS Categoria B:
 **Exemplo:** Um psicólogo que fature 30.000€ por ano em consultas:
 - Rendimento bruto: 30.000€
 - Coeficiente: 0,75 (serviços profissionais)
-- Rendimento tributável: 30.000€ × 0,75 = **22.500€** — é este o valor que entra nos escalões de IRS
+- Rendimento tributável: 30.000€ × 0,75 = **22.500€** — é este o valor que vai ser considerado como rendimento para efeitos de liquidação em sede de IRS
 
 ### Contabilidade Organizada
 
 - **Obrigatória** se rendimento anual > 200.000€
 - **Opcional** abaixo desse valor
-- **Obriga a contabilista certificado** (com custo mensal de 50-150€)
+- **Obriga a contabilista certificado** (com um custo mensal associado ao serviço que te é prestado por esse especialista)
 - Deduzes **despesas reais** (tudo o que for profissional, devidamente documentado)
 - Mais burocracia, mais flexibilidade fiscal
 
 **Quando vale a pena?**
 
-A regra empírica: se as tuas **despesas reais forem superiores a 25% do rendimento**, a contabilidade organizada compensa (assumindo coeficiente 0,75 no simplificado).
+A regra empírica: se as tuas **despesas reais forem superiores a 25% do rendimento**, a contabilidade organizada compensa (assumindo coeficiente 0,75 no Regime Simplificado).
 
 > **📌 Exemplo concreto:** Um fotógrafo de casamentos com 40.000€ de faturação anual e 15.000€ de despesas reais (equipamento, deslocações, software, etc.).
 >
 > - **Simplificado:** tributável = 40.000€ × 0,75 = 30.000€
 > - **Organizada:** tributável = 40.000€ − 15.000€ = 25.000€
 >
-> Diferença: 5.000€ a menos na base tributável. A poupar uns 1.500€ de IRS, compensando os 600-1.200€ anuais de contabilista. **Compensa.**
+> Diferença: 5.000€ a menos na base tributável. Dá para poupar em IRS, o que até pode compensar ou não, dependendo de cada caso em concreto, o custo anual do Contabilista Certificado.
 
 ### E se mudar de ideias?
 
@@ -238,28 +239,28 @@ Podes mudar de regime — mas **só uma vez por ano**, e tens de o fazer até **
 
 ---
 
-## 2.7. Volume anual previsto
+## 2.7. Volume anual previsto na declaração de Início de Atividade
 
 Quando fazes a declaração, vais ter de indicar uma **previsão de rendimento anual**.
 
 > **⚠️ Atenção:** Não é um compromisso. Mas tem **consequências fiscais imediatas**:
 >
-> - Se indicares menos de 15.000€ → ficas em isenção de IVA (art. 53.º) — mesmo que depois faturas mais
-> - Se indicares mais de 15.000€ → ficas em regime normal de IVA
-> - Se indicares mais de 200.000€ → obrigado a contabilidade organizada
+> - Se indicares menos de 15.000€ → ficas em Isenção de IVA (art. 53.º) 
+> - Se indicares mais de 15.000€ → ficas enquadrado no Regime Normal de IVA
+> - Se indicares mais de 200.000€ → obrigado a Contabilidade Organizada
 
 **O que acontece se errares a previsão?**
 
-- Se previste menos e faturaste mais: podes ter de **corrigir o regime de IVA** no ano seguinte e, em casos graves, pagar IVA em atraso
-- Se previste mais e faturaste menos: podes pedir a mudança para isenção de IVA no ano seguinte
+- Se previste menos e faturaste mais: vais ter de **corrigir o regime de IVA** logo no momento em que ultrapassas o limite de 15.000,00 euros anuais, com consequência direta logo nesa faturação.
+- Se previste mais e faturaste menos: podes pedir, se o desejares, a mudança para o Regime de Isenção de IVA no ano seguinte
 
-**A regra de ouro:** sê realista. Nem pessimista demais nem optimista demais.
+**A regra de ouro:** sê realista. Nem pessimista nem optimista demais.
 
 ---
 
 ## 2.8. Isenção de contribuições à Segurança Social nos primeiros 12 meses
 
-Esta é uma das **melhores notícias** para quem abre atividade. Ouve bem:
+Esta é uma das **melhores notícias** para quem inicia atividade em nome individual. Ouve bem:
 
 > **💡 Nos primeiros 12 meses de atividade, estás ISENTO de pagar contribuições à Segurança Social** (desde que essa seja a tua única atividade e que a tenhas aberto pela primeira vez).
 
@@ -292,7 +293,7 @@ Muita gente ignora isto e é **ilegal**. Todos os trabalhadores independentes s�
 
 **Companhias que trabalham com este seguro:** Fidelidade, Tranquilidade, Zurich, Lusitânia, Ageas, entre outras. Todas têm apólices específicas para trabalhadores independentes.
 
-> **📌 Caso Real:** Um psicólogo torceu o pé ao subir uma escada para uma reunião. Quatro meses sem trabalhar. Sem seguro. Sem Segurança Social (porque estava no primeiro ano de atividade). Sem subsídio de doença. Não recebeu um cêntimo de apoio oficial — perdeu perto de 10.000€ em rendimentos. O seguro de acidentes de trabalho, por 120€/ano, teria pago grande parte disso.
+> **📌 Caso Real:** Um psicólogo torceu o pé ao subir uma escada para uma reunião. Quatro meses sem trabalhar. Sem seguro. Sem Segurança Social (porque estava no primeiro ano de atividade). Sem subsídio de doença. Não recebeu qualquer apoio oficial — perdeu perto de 10.000€ em rendimentos. O seguro de acidentes de trabalho, por 120€/ano, teria pago grande parte disso.
 
 ---
 
@@ -324,37 +325,37 @@ Todas são **certificadas** pela AT (obrigatório acima de certo volume).
 
 ## 2.11. Os 10 erros mais comuns no início de atividade
 
-Vou listar-te os erros que vi mais vezes na minha carreira. Lê com atenção — porque não é preciso que a AT te apanhe: a maioria destes erros **descobres tu próprio** no fim do ano, ao preencher o IRS.
+Vou listar-te os erros que vi mais vezes na minha carreira. Lê com atenção, a maioria destes erros **descobres tu próprio** no fim do ano, ao preencher o IRS.
 
 ### ❌ Erro 1: Abrir atividade com CAE errado
 Escolher um CAE que não descreve exactamente a atividade, geralmente por pressa. Depois, ao longo dos anos, aplicam-se coeficientes errados no IRS.
 
 ### ❌ Erro 2: Iniciar atividade depois de já ter faturado
-Submeter a declaração de início depois de já teres emitido uma fatura. Coima garantida, entre 150€ e 3.750€.
+Submeter a declaração de início depois de já teres emitido uma fatura. Estás sujeito a coima, o que é sempre de evitar. Além disso, em relação às faturas emitidas antes do início de atividade tens obrigações fiscais sobre as quais deves pedir esclarecimento em concreto. É sempre de evitar esta situação.
 
-### ❌ Erro 3: Ficar em regime normal de IVA sem necessidade
+### ❌ Erro 3: Ficar em Regime Normal de IVA sem necessidade
 Por não saber que existe a isenção do art. 53.º, muita gente fica em regime normal quando faturas 8.000€/ano e trabalha só para particulares. Perde competitividade e ganha burocracia.
 
 ### ❌ Erro 4: Ficar em isenção quando devia estar em regime normal
 O inverso: trabalhar sobretudo para empresas e estar em isenção — perde-se o direito de deduzir IVA das despesas.
 
 ### ❌ Erro 5: Subestimar o rendimento previsto
-Indicar um valor baixo "para chamar menos atenção". A AT não liga a isso. Mas se depois a faturação real for muito superior, tens complicações com o IVA.
+Indicar um valor baixo "para chamar menos atenção". Mas se depois a faturação real for muito superior, tens complicações com o IVA.
 
 ### ❌ Erro 6: Não comunicar múltiplas atividades
 Fazer design, vender prints e dar formação — mas só ter o CAE do design. No IRS, os rendimentos das outras atividades entram com coeficientes errados.
 
 ### ❌ Erro 7: Esquecer a Segurança Social
-A abertura nas Finanças notifica a Segurança Social, mas há dados que **só tu podes completar lá** (escalão, base de incidência, etc.). Muitos esquecem.
+A abertura nas Finanças notifica a Segurança Social, mas há dados que **só tu podes completar lá** (escalão, base de incidência, etc.). A não esquecer.
 
 ### ❌ Erro 8: Não contratar seguro de acidentes de trabalho
 É obrigatório. A maioria só se lembra quando tem um acidente — e aí já é tarde.
 
 ### ❌ Erro 9: Misturar conta pessoal com profissional
-Não é ilegal, mas é um pesadelo quando tens de fazer contas para o IRS, ou se alguma vez fores fiscalizado.
+Não é ilegal, mas é um pesadelo quando tens de fazer contas para o IRS, ou até para gerir o IVA.
 
 ### ❌ Erro 10: Não pedir dispensa de retenção na fonte
-Se faturas abaixo de 15.000€/ano e o cliente é empresa, este é obrigado a reter IRS na fonte **a não ser que peças dispensa** (art. 101.º-B do Código do IRS). Muita gente vai empurrando este dinheiro para o Estado durante o ano e depois recebe reembolso no IRS. Podias ter esse dinheiro contigo o ano inteiro.
+Se faturas abaixo de 15.000€/ano, és prestador de serviços e o cliente é empresa, este é obrigado a fazer Retenção de IRS na fonte **a não ser que peças dispensa** (art. 101.º-B do Código do IRS). Muita gente vai empurrando este dinheiro para o Estado durante o ano e depois recebe reembolso no IRS. Podias ter esse dinheiro contigo o ano inteiro.
 
 ---
 
@@ -362,15 +363,15 @@ Se faturas abaixo de 15.000€/ano e o cliente é empresa, este é obrigado a re
 
 Se tens de levar apenas uma mensagem deste capítulo, é esta:
 
-> **A abertura de atividade não é uma formalidade. É uma decisão estratégica que vai determinar a tua vida fiscal durante anos.**
+> **A abertura de atividade não é apenas uma formalidade. É uma decisão estratégica que vai determinar a tua vida fiscal durante anos.**
 
-As 10 perguntas-chave a responder **antes** de submeter a declaração:
+As 10 perguntas-chave a responder **antes** de submeter a declaração de início de atividade:
 
 1. Qual é exactamente a minha atividade? (CAE + CIRS)
 2. Vou fazer só uma coisa ou várias? (CAE principal + secundários)
 3. Quanto espero faturar no primeiro ano? (previsão realista)
-4. Vou trabalhar para particulares, empresas ou ambos? (regime IVA)
-5. As minhas despesas vão ser altas ou baixas? (regime IRS: simplificado ou organizada)
+4. Vou trabalhar para particulares, empresas ou ambos? (Regime IVA)
+5. As minhas despesas vão ser altas ou baixas? (Regime IRS: Simplificado ou Contabilidade Organizada)
 6. Preciso de contabilista? (implicação do regime IRS)
 7. Tenho direito a alguma isenção de IVA específica? (art. 9.º do CIVA)
 8. Estou a aproveitar a isenção de 12 meses na Segurança Social?
@@ -389,5 +390,5 @@ As 10 perguntas-chave a responder **antes** de submeter a declaração:
 - [gov.pt — Guia para Trabalhadores Independentes](https://www.gov.pt/guias/trabalhar-por-conta-propria-guia-para-trabalhadores-independentes)
 - [Portal SICAE — Consulta de CAE](http://www.sicae.pt/consulta.aspx)
 - [Segurança Social Direta](https://www.seg-social.pt)
-- Código do IRS, artigo 151.º (tabela de atividades)
-- Código do IVA, artigo 53.º (regime de isenção)
+- Código do IRS, artigo 151.º (Tabela de Atividades)
+- Código do IVA, artigo 53.º (Regime de Isenção)
