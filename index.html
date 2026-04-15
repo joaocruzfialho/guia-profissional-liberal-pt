@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Guia Completo do Profissional Liberal em Portugal | Pré-venda</title>
+    <meta name="description" content="Tudo o que precisas de saber sobre impostos, Segurança Social e faturação em Portugal. Por João Fialho, ex-Inspetor da Autoridade Tributária (40 anos). Pré-venda com 40% desconto.">
+    <meta name="theme-color" content="#1a1f3a">
+    <meta property="og:title" content="O Guia Completo do Profissional Liberal em Portugal">
+    <meta property="og:description" content="Escrito por quem inspeccionou durante 40 anos na AT. Todas as respostas fiscais numa só obra.">
+    <meta property="og:type" content="book">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <style>
+        :root {
+            --navy: #1a1f3a;
+            --navy-light: #2d3558;
+            --gold: #c9a227;
+            --gold-soft: #f5e9c7;
+            --cream: #faf7f1;
+            --cream-dark: #efebe0;
+            --text: #1f2937;
+            --text-light: #6b7280;
+            --text-muted: #9ca3af;
+            --border: #e5e0d5;
+            --success: #16a34a;
+            --danger: #dc2626;
+            --shadow: 0 4px 14px rgba(20,15,5,0.08);
+            --shadow-lg: 0 20px 40px rgba(20,15,5,0.12);
+            --radius: 12px;
+            --font-serif: 'Cormorant Garamond', Georgia, serif;
+            --font-sans: 'Inter', -apple-system, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        *:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+        body {
+            font-family: var(--font-sans);
+            background: var(--cream);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 700; letter-spacing: -0.01em; color: var(--navy); line-height: 1.2; }
+        h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); }
+        h2 { font-size: clamp(1.7rem, 3.5vw, 2.4rem); margin-bottom: 1rem; }
+        h3 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+        a { color: var(--navy); text-decoration: none; }
+
+        /* NAV */
+        nav {
+            position: sticky; top: 0; background: rgba(250,247,241,0.95); backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border); z-index: 100; padding: 12px 0;
+        }
+        .nav-inner { max-width: 1200px; margin: auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; color: var(--navy); }
+        .nav-logo .icon { margin-right: 4px; }
+        .nav-links { display: flex; gap: 20px; align-items: center; }
+        .nav-links a { font-size: 0.9rem; color: var(--text-light); font-weight: 500; }
+        .nav-links a:hover { color: var(--navy); }
+        .nav-cta { background: var(--navy); color: var(--cream); padding: 8px 18px; border-radius: 8px; font-size: 0.88rem; font-weight: 600; }
+        .nav-cta:hover { background: var(--navy-light); color: var(--cream); }
+        @media (max-width: 700px) { .nav-links a:not(.nav-cta) { display: none; } }
+
+        .container { max-width: 1100px; margin: auto; padding: 0 24px; }
+        section { padding: 80px 0; }
+        @media (max-width: 700px) { section { padding: 50px 0; } }
+
+        /* HERO */
+        .hero { background: linear-gradient(180deg, var(--cream) 0%, var(--cream-dark) 100%); padding-top: 60px; padding-bottom: 80px; overflow: hidden; position: relative; }
+        .hero::before {
+            content: ''; position: absolute; top: -100px; right: -100px; width: 400px; height: 400px;
+            background: radial-gradient(circle, rgba(201,162,39,0.15), transparent 70%); pointer-events: none;
+        }
+        .hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: center; position: relative; }
+        @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; gap: 40px; text-align: center; } }
+
+        .hero-badge { display: inline-block; background: var(--gold-soft); color: #8b6f1a; padding: 6px 14px; border-radius: 20px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; margin-bottom: 24px; }
+        .hero h1 { margin-bottom: 20px; }
+        .hero h1 em { color: var(--gold); font-style: italic; font-weight: 600; }
+        .hero-subtitle { font-size: 1.15rem; color: var(--text-light); margin-bottom: 30px; max-width: 560px; }
+        @media (max-width: 900px) { .hero-subtitle { margin-left: auto; margin-right: auto; } }
+
+        .hero-author { display: flex; align-items: center; gap: 12px; margin-bottom: 30px; padding: 14px 18px; background: rgba(255,255,255,0.7); border-radius: 12px; border: 1px solid var(--border); max-width: 460px; }
+        @media (max-width: 900px) { .hero-author { margin: 0 auto 30px; } }
+        .hero-author-avatar { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, var(--navy), var(--navy-light)); color: var(--gold); display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; font-size: 1.1rem; }
+        .hero-author-info strong { color: var(--navy); display: block; font-size: 0.95rem; }
+        .hero-author-info span { font-size: 0.82rem; color: var(--text-light); }
+
+        .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+        @media (max-width: 900px) { .hero-cta { justify-content: center; } }
+        .btn { display: inline-flex; align-items: center; justify-content: center; padding: 14px 28px; border-radius: 10px; font-weight: 600; font-size: 1rem; border: none; cursor: pointer; font-family: inherit; transition: all 0.25s; }
+        .btn-primary { background: var(--navy); color: var(--cream); box-shadow: var(--shadow); }
+        .btn-primary:hover { background: var(--navy-light); transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+        .btn-outline { background: transparent; border: 2px solid var(--navy); color: var(--navy); }
+        .btn-outline:hover { background: var(--navy); color: var(--cream); }
+
+        /* BOOK COVER MOCKUP */
+        .book-wrapper { display: flex; justify-content: center; }
+        .book-cover {
+            width: 280px; height: 400px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            border-radius: 2px 10px 10px 2px; padding: 30px 28px; color: var(--cream);
+            box-shadow: var(--shadow-lg), -8px 0 0 -5px var(--navy-light), -14px 0 0 -9px rgba(26,31,58,0.8);
+            position: relative; transform: rotate(-2deg); transition: transform 0.3s;
+            display: flex; flex-direction: column; justify-content: space-between;
+        }
+        .book-cover:hover { transform: rotate(0deg); }
+        .book-cover::before { content: ''; position: absolute; left: 18px; top: 0; bottom: 0; width: 1px; background: rgba(201,162,39,0.3); }
+        .book-cover-top { text-align: center; padding-top: 10px; }
+        .book-cover-eyebrow { font-family: var(--font-sans); font-size: 0.65rem; letter-spacing: 3px; color: var(--gold); font-weight: 600; margin-bottom: 14px; }
+        .book-cover h2 { color: var(--cream); font-size: 1.6rem; line-height: 1.15; margin-bottom: 14px; }
+        .book-cover h2 em { color: var(--gold); font-style: italic; }
+        .book-cover-subtitle { font-family: var(--font-sans); font-size: 0.72rem; color: rgba(250,247,241,0.7); line-height: 1.4; font-style: italic; }
+        .book-cover-bottom { text-align: center; }
+        .book-cover-ornament { color: var(--gold); font-size: 1.4rem; margin-bottom: 10px; }
+        .book-cover-author { font-family: var(--font-serif); font-size: 0.95rem; color: var(--gold); font-weight: 600; }
+        .book-cover-author-title { font-family: var(--font-sans); font-size: 0.62rem; color: rgba(250,247,241,0.6); margin-top: 3px; letter-spacing: 1px; text-transform: uppercase; }
+
+        /* PROBLEMA */
+        .problema { background: white; }
+        .problema-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px; }
+        .problema-item { background: var(--cream); padding: 24px; border-radius: var(--radius); border-left: 3px solid var(--gold); }
+        .problema-item h4 { color: var(--navy); font-family: var(--font-sans); font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
+        .problema-item p { font-size: 0.92rem; color: var(--text-light); }
+
+        /* SECCAO header */
+        .section-header { text-align: center; max-width: 720px; margin: 0 auto 50px; }
+        .section-label { display: inline-block; font-size: 0.72rem; color: var(--gold); letter-spacing: 3px; font-weight: 700; text-transform: uppercase; margin-bottom: 12px; }
+        .section-header p { color: var(--text-light); font-size: 1.05rem; margin-top: 12px; }
+
+        /* CAPITULOS */
+        .capitulos { background: var(--cream-dark); }
+        .chapters-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+        .chapter-card {
+            background: var(--cream); padding: 22px; border-radius: var(--radius); border: 1px solid var(--border);
+            display: flex; gap: 14px; align-items: flex-start; transition: all 0.25s;
+        }
+        .chapter-card:hover { border-color: var(--gold); transform: translateY(-2px); box-shadow: var(--shadow); }
+        .chapter-num {
+            width: 42px; height: 42px; background: var(--navy); color: var(--gold); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center; font-family: var(--font-serif);
+            font-size: 1.2rem; font-weight: 700; flex-shrink: 0;
+        }
+        .chapter-card h4 { font-family: var(--font-sans); font-weight: 700; font-size: 1rem; color: var(--navy); margin-bottom: 4px; }
+        .chapter-card p { font-size: 0.88rem; color: var(--text-light); }
+
+        /* ANEXOS / PROFISSÕES */
+        .anexos { background: white; }
+        .anexos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+        .anexo-card {
+            background: linear-gradient(135deg, var(--navy), var(--navy-light)); color: var(--cream);
+            padding: 28px 24px; border-radius: var(--radius); position: relative; overflow: hidden;
+        }
+        .anexo-card::after {
+            content: ''; position: absolute; top: -40px; right: -40px; width: 120px; height: 120px;
+            background: radial-gradient(circle, rgba(201,162,39,0.2), transparent 70%);
+        }
+        .anexo-icon { font-size: 2rem; margin-bottom: 12px; display: block; }
+        .anexo-card h4 { color: var(--cream); font-size: 1.2rem; margin-bottom: 8px; }
+        .anexo-card ul { list-style: none; font-size: 0.85rem; color: rgba(250,247,241,0.75); margin-top: 10px; }
+        .anexo-card li { padding: 3px 0; padding-left: 16px; position: relative; }
+        .anexo-card li::before { content: '•'; color: var(--gold); position: absolute; left: 0; }
+
+        /* AUTOR */
+        .autor { background: var(--cream-dark); }
+        .autor-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 50px; align-items: center; }
+        @media (max-width: 800px) { .autor-grid { grid-template-columns: 1fr; text-align: center; } }
+        .autor-photo {
+            width: 240px; height: 240px; background: linear-gradient(135deg, var(--navy), var(--navy-light));
+            color: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-serif); font-size: 5rem; font-weight: 700; box-shadow: var(--shadow-lg);
+            margin: auto;
+        }
+        .autor-content .credentials { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+        @media (max-width: 800px) { .autor-content .credentials { justify-content: center; } }
+        .credential { background: white; padding: 8px 16px; border-radius: 20px; font-size: 0.82rem; color: var(--navy); font-weight: 600; border: 1px solid var(--border); }
+        .credential strong { color: var(--gold); }
+
+        /* PRECOS */
+        .precos { background: white; }
+        .precos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px; }
+        .preco-card {
+            background: var(--cream); padding: 32px 26px; border-radius: var(--radius); border: 2px solid var(--border);
+            position: relative; transition: all 0.3s;
+        }
+        .preco-card.featured { border-color: var(--gold); transform: scale(1.03); box-shadow: var(--shadow-lg); }
+        .preco-card.featured::before { content: 'MAIS POPULAR'; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--navy); padding: 4px 14px; border-radius: 20px; font-size: 0.7rem; font-weight: 800; letter-spacing: 1.5px; }
+        .preco-nome { font-family: var(--font-serif); font-size: 1.3rem; color: var(--navy); margin-bottom: 4px; font-weight: 700; }
+        .preco-desc { font-size: 0.85rem; color: var(--text-light); margin-bottom: 20px; min-height: 40px; }
+        .preco-valor { display: flex; align-items: baseline; gap: 4px; margin-bottom: 6px; }
+        .preco-valor .old { font-size: 1.1rem; color: var(--text-muted); text-decoration: line-through; }
+        .preco-valor strong { font-family: var(--font-serif); font-size: 2.5rem; color: var(--navy); font-weight: 700; }
+        .preco-valor .currency { font-size: 1.3rem; color: var(--navy); font-weight: 600; }
+        .preco-badge { display: inline-block; background: var(--gold-soft); color: #8b6f1a; padding: 2px 10px; border-radius: 10px; font-size: 0.72rem; font-weight: 700; margin-bottom: 20px; }
+        .preco-features { list-style: none; margin-bottom: 26px; }
+        .preco-features li { padding: 8px 0; font-size: 0.92rem; padding-left: 24px; position: relative; }
+        .preco-features li::before { content: '✓'; position: absolute; left: 0; color: var(--success); font-weight: 700; }
+        .preco-features li.no::before { content: '–'; color: var(--text-muted); }
+        .preco-features li.no { color: var(--text-muted); }
+
+        /* EMAIL CAPTURE */
+        .capture {
+            background: linear-gradient(135deg, var(--navy), var(--navy-light));
+            color: var(--cream); position: relative; overflow: hidden;
+        }
+        .capture::before, .capture::after {
+            content: ''; position: absolute; width: 300px; height: 300px; border-radius: 50%;
+            background: radial-gradient(circle, rgba(201,162,39,0.15), transparent 70%); pointer-events: none;
+        }
+        .capture::before { top: -100px; left: -100px; }
+        .capture::after { bottom: -100px; right: -100px; }
+        .capture-inner { max-width: 640px; margin: auto; text-align: center; position: relative; }
+        .capture h2 { color: var(--cream); margin-bottom: 14px; }
+        .capture h2 em { color: var(--gold); font-style: italic; }
+        .capture p { color: rgba(250,247,241,0.85); font-size: 1.05rem; margin-bottom: 28px; }
+        .capture-form { display: flex; gap: 10px; max-width: 500px; margin: auto; flex-wrap: wrap; }
+        .capture-form input, .capture-form select {
+            flex: 1; min-width: 200px; padding: 14px 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.15);
+            background: rgba(255,255,255,0.1); color: var(--cream); font-size: 1rem; font-family: inherit;
+            transition: background 0.2s;
+        }
+        .capture-form input::placeholder { color: rgba(250,247,241,0.5); }
+        .capture-form input:focus, .capture-form select:focus { outline: none; background: rgba(255,255,255,0.18); border-color: var(--gold); }
+        .capture-form option { color: var(--navy); background: var(--cream); }
+        .capture-form button {
+            background: var(--gold); color: var(--navy); padding: 14px 28px; border-radius: 10px; border: none;
+            font-weight: 700; font-size: 1rem; cursor: pointer; font-family: inherit; transition: all 0.25s;
+        }
+        .capture-form button:hover:not(:disabled) { background: #d4a910; transform: translateY(-2px); }
+        .capture-form button:disabled { opacity: 0.6; cursor: not-allowed; }
+        .capture-benefit { font-size: 0.85rem; color: rgba(250,247,241,0.7); margin-top: 20px; }
+        #captureMessage { margin-top: 20px; padding: 14px; border-radius: 10px; font-size: 0.95rem; display: none; }
+        #captureMessage.success { display: block; background: rgba(22,163,74,0.2); border: 1px solid var(--success); color: #86efac; }
+        #captureMessage.error { display: block; background: rgba(220,38,38,0.2); border: 1px solid var(--danger); color: #fca5a5; }
+
+        /* FAQ */
+        .faq { background: var(--cream); }
+        .faq-list { max-width: 780px; margin: auto; }
+        .faq-item {
+            background: white; margin-bottom: 12px; border-radius: var(--radius); border: 1px solid var(--border);
+            overflow: hidden; transition: box-shadow 0.2s;
+        }
+        .faq-item:hover { box-shadow: var(--shadow); }
+        .faq-q { padding: 18px 22px; cursor: pointer; font-weight: 600; display: flex; justify-content: space-between; align-items: center; color: var(--navy); user-select: none; }
+        .faq-q::after { content: '+'; font-size: 1.5rem; color: var(--gold); transition: transform 0.3s; }
+        .faq-item.open .faq-q::after { transform: rotate(45deg); }
+        .faq-a { padding: 0 22px; max-height: 0; overflow: hidden; transition: max-height 0.4s, padding 0.4s; color: var(--text-light); font-size: 0.95rem; }
+        .faq-item.open .faq-a { padding: 0 22px 20px; max-height: 400px; }
+
+        /* FOOTER */
+        footer { background: var(--navy); color: var(--cream); padding: 50px 0 30px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        @media (max-width: 700px) { .footer-grid { grid-template-columns: 1fr; gap: 30px; } }
+        .footer-brand h3 { color: var(--cream); margin-bottom: 10px; }
+        .footer-brand p { color: rgba(250,247,241,0.65); font-size: 0.9rem; }
+        footer h4 { font-family: var(--font-sans); color: var(--gold); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 16px; }
+        footer ul { list-style: none; }
+        footer li a { color: rgba(250,247,241,0.75); font-size: 0.9rem; padding: 4px 0; display: inline-block; }
+        footer li a:hover { color: var(--gold); }
+        .footer-bottom { text-align: center; padding-top: 30px; border-top: 1px solid rgba(250,247,241,0.1); color: rgba(250,247,241,0.5); font-size: 0.82rem; }
+        .footer-bottom .version { margin-top: 8px; font-size: 0.75rem; }
+    </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+    <div class="nav-inner">
+        <a href="#" class="nav-logo"><span class="icon">📘</span> Guia do Profissional Liberal</a>
+        <div class="nav-links">
+            <a href="#conteudo">Conteúdo</a>
+            <a href="#autor">Autor</a>
+            <a href="#precos">Preços</a>
+            <a href="#subscrever" class="nav-cta">Pré-venda</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-grid">
+            <div>
+                <span class="hero-badge">⚡ Pré-venda aberta · 40% desconto</span>
+                <h1>Tudo o que o <em>Fisco</em> não te explica sobre ser<br>Profissional Liberal em Portugal</h1>
+                <p class="hero-subtitle">O guia definitivo sobre IRS, IVA, Segurança Social, faturação e gestão para quem trabalha por conta própria. Escrito por quem inspeccionou profissionais liberais durante 40 anos.</p>
+
+                <div class="hero-author">
+                    <div class="hero-author-avatar">JF</div>
+                    <div class="hero-author-info">
+                        <strong>João Fialho</strong>
+                        <span>Ex-Inspetor AT · 40 anos de experiência</span>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="#subscrever" class="btn btn-primary">Quero o guia com desconto</a>
+                    <a href="#conteudo" class="btn btn-outline">Ver o conteúdo</a>
+                </div>
+            </div>
+
+            <div class="book-wrapper">
+                <div class="book-cover">
+                    <div class="book-cover-top">
+                        <div class="book-cover-eyebrow">EDIÇÃO PORTUGAL · 2026</div>
+                        <h2>O Guia <em>Completo</em> do Profissional Liberal</h2>
+                        <div class="book-cover-subtitle">Impostos · Segurança Social · Faturação · Gestão</div>
+                    </div>
+                    <div class="book-cover-bottom">
+                        <div class="book-cover-ornament">❖</div>
+                        <div class="book-cover-author">João Fialho</div>
+                        <div class="book-cover-author-title">Ex-Inspetor Tributário</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROBLEMA -->
+<section class="problema">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">O Problema</span>
+            <h2>Quanto é que estas dúvidas te custam todos os anos?</h2>
+            <p>Maioria dos profissionais liberais em Portugal pagam mais impostos do que deviam. Não por má fé — mas por falta de informação clara.</p>
+        </div>
+
+        <div class="problema-grid">
+            <div class="problema-item">
+                <h4>🤔 Regime Simplificado ou Contabilidade Organizada?</h4>
+                <p>A escolha errada pode custar-te milhares de euros por ano. Poucos explicam quando é que cada um compensa de facto.</p>
+            </div>
+            <div class="problema-item">
+                <h4>💶 Que despesas posso deduzir?</h4>
+                <p>Combustível, material, formação, quarto em casa como escritório... a lista real de despesas aceites é muito maior do que pensas.</p>
+            </div>
+            <div class="problema-item">
+                <h4>🧾 IVA: sou ou não isento pelo art. 53º?</h4>
+                <p>Muitos descobrem tarde que deviam estar isentos — ou, pior, que já passaram o limite e devem IVA em atraso.</p>
+            </div>
+            <div class="problema-item">
+                <h4>🏦 Segurança Social: a base de incidência</h4>
+                <p>Podes optar por pagar mais ou menos. Cada opção tem implicações sérias na tua pensão futura e no teu rendimento hoje.</p>
+            </div>
+            <div class="problema-item">
+                <h4>🌍 Clientes no estrangeiro: Reverse Charge?</h4>
+                <p>Faturar para empresas fora de Portugal tem regras muito específicas. Errar aqui resulta em coimas e IVA duplicado.</p>
+            </div>
+            <div class="problema-item">
+                <h4>📅 Que obrigações tenho, quando e como?</h4>
+                <p>IRS, IVA trimestral, declaração trimestral SS, IES, Modelo 22... um calendário claro de tudo o que tens de fazer e quando.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CAPITULOS -->
+<section class="capitulos" id="conteudo">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">O Livro</span>
+            <h2>O que vais aprender</h2>
+            <p>18 capítulos estruturados + 6 anexos específicos por profissão. Mais de 180 páginas de conteúdo prático com exemplos reais da Inspeção Tributária.</p>
+        </div>
+
+        <div class="chapters-grid">
+            <div class="chapter-card"><div class="chapter-num">1</div><div><h4>Quem é Profissional Liberal?</h4><p>Categoria B vs empresa · diferenças, obrigações, quando faz sentido cada um.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">2</div><div><h4>Início de Atividade</h4><p>Passo-a-passo no Portal das Finanças · NISS · escolha de CAE e CIRS · erros comuns.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">3</div><div><h4>Regime Simplificado ou Organizada?</h4><p>Análise comparativa com simulações reais. Quando mudar? E os efeitos a longo prazo?</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">4</div><div><h4>IRS Categoria B</h4><p>Coeficientes (0,75 · 0,35 · 0,10 · 0,50) explicados com exemplos para cada profissão.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">5</div><div><h4>IVA para Profissionais Liberais</h4><p>Isenção art. 53º · regime normal · trimestral vs mensal · transição entre regimes.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">6</div><div><h4>Retenções na Fonte</h4><p>Quando aplicam, percentagens, como recuperar via IRS. Quem deve reter e quando dispensar.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">7</div><div><h4>Segurança Social</h4><p>Contribuições, escalões, declaração trimestral. Como optar pela base mais favorável.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">8</div><div><h4>Faturação Digital</h4><p>Portal das Finanças · software certificado · recibos verdes · faturas-recibo · notas de crédito.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">9</div><div><h4>Despesas Dedutíveis</h4><p>Lista completa do que dá e não dá. Espaço de trabalho em casa. Viaturas. Formação.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">10</div><div><h4>Trabalho com Estrangeiro</h4><p>Reverse Charge · VIES · clientes EUA/UK · Nº fiscal europeu · faturação em outra moeda.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">11</div><div><h4>Obrigações Declarativas</h4><p>Calendário completo anual. IRS, IES, IVA periódico, Modelo 22. Imprimível e editável.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">12</div><div><h4>Seguros Obrigatórios</h4><p>Responsabilidade civil profissional, acidentes de trabalho. Por ordem profissional.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">13</div><div><h4>Passar a Sociedade</h4><p>Quando compensa criar Unipessoal por Quotas? Vantagens, custos reais, transição.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">14</div><div><h4>Reforma sendo Cat. B</h4><p>Como garantir uma pensão digna. Planos complementares com benefício fiscal.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">15</div><div><h4>Fiscalizações: Como Agir</h4><p>O que acontece numa inspeção. Os teus direitos. Como documentar-te preventivamente.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">16</div><div><h4>Erros Mais Comuns</h4><p>Top 20 erros que vejo há décadas — e como evitá-los antes que sejam detectados.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">17</div><div><h4>Gestão Financeira</h4><p>Provisionar impostos · separar contas · gerir a sazonalidade · planeamento fiscal legal.</p></div></div>
+            <div class="chapter-card"><div class="chapter-num">18</div><div><h4>Glossário e Recursos</h4><p>Todos os termos explicados. Links úteis. Contactos da AT. Modelos de documentos.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- ANEXOS PROFISSÕES -->
+<section class="anexos">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Especificidades por Profissão</span>
+            <h2>Anexos dedicados a 6 áreas profissionais</h2>
+            <p>Além do guia geral, capítulos extra com as particularidades fiscais de cada área — escritos para resolver as dúvidas concretas de cada profissão.</p>
+        </div>
+
+        <div class="anexos-grid">
+            <div class="anexo-card">
+                <span class="anexo-icon">⚕️</span>
+                <h4>Saúde</h4>
+                <p style="font-size:0.85rem;opacity:0.8;">Médicos · Dentistas · Fisioterapeutas · Psicólogos · Nutricionistas · Terapeutas</p>
+                <ul>
+                    <li>Isenção IVA do art. 9º</li>
+                    <li>Retenções em hospitais</li>
+                    <li>Consultas privadas vs SNS</li>
+                    <li>ADSE e convenções</li>
+                </ul>
+            </div>
+            <div class="anexo-card">
+                <span class="anexo-icon">⚖️</span>
+                <h4>Advogados e Solicitadores</h4>
+                <p style="font-size:0.85rem;opacity:0.8;">Advocacia · Solicitadoria</p>
+                <ul>
+                    <li>Colaborações em sociedades</li>
+                    <li>Caixa de Previdência (CPAS)</li>
+                    <li>Retenções em honorários</li>
+                    <li>Despesas processuais</li>
+                </ul>
+            </div>
+            <div class="anexo-card">
+                <span class="anexo-icon">🏛️</span>
+                <h4>Arquitetura e Engenharia</h4>
+                <p style="font-size:0.85rem;opacity:0.8;">Arquitetos · Engenheiros (todas as especialidades)</p>
+                <ul>
+                    <li>Avenças com câmaras</li>
+                    <li>Projetos SCE</li>
+                    <li>Ordens profissionais</li>
+                    <li>Seguros de responsabilidade</li>
+                </ul>
+            </div>
+            <div class="anexo-card">
+                <span class="anexo-icon">💼</span>
+                <h4>Consultores e Formadores</h4>
+                <p style="font-size:0.85rem;opacity:0.8;">Consultoria · Coaching · Formação</p>
+                <ul>
+                    <li>Isenção IVA em formação</li>
+                    <li>Certificação DGERT</li>
+                    <li>Retenções de clientes</li>
+                    <li>Formação à distância</li>
+                </ul>
+            </div>
+            <div class="anexo-card">
+                <span class="anexo-icon">🎨</span>
+                <h4>Criativos</h4>
+                <p style="font-size:0.85rem;opacity:0.8;">Fotógrafos · Designers · Artistas · Jornalistas · Tradutores</p>
+                <ul>
+                    <li>Direitos de autor</li>
+                    <li>Clientes estrangeiros</li>
+                    <li>Royalties e licenças</li>
+                    <li>Stock/platformas digitais</li>
+                </ul>
+            </div>
+            <div class="anexo-card">
+                <span class="anexo-icon">💻</span>
+                <h4>IT e Tecnologia</h4>
+                <p style="font-size:0.85rem;opacity:0.8;">Programadores · Web Designers · DevOps · Data Scientists</p>
+                <ul>
+                    <li>Clientes EUA (W-9) e UE</li>
+                    <li>Reverse Charge na prática</li>
+                    <li>NHR e dupla tributação</li>
+                    <li>Upwork, Fiverr, Toptal</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- AUTOR -->
+<section class="autor" id="autor">
+    <div class="container">
+        <div class="autor-grid">
+            <div class="autor-photo">JF</div>
+            <div class="autor-content">
+                <span class="section-label">Sobre o Autor</span>
+                <h2>Quem melhor que quem inspeccionou durante 40 anos?</h2>
+                <p style="color:var(--text-light);margin-top:12px;font-size:1.05rem;">
+                    Sou João Fialho. Passei quatro décadas na <strong>Autoridade Tributária e Aduaneira</strong>,
+                    na área de <strong>Inspeção Tributária</strong>, analisando milhares de processos de profissionais
+                    liberais por todo o país.
+                </p>
+                <p style="color:var(--text-light);margin-top:12px;font-size:1.05rem;">
+                    Sei exactamente onde estão os erros mais comuns, o que a AT analisa primeiro, como
+                    documentar-te preventivamente, e como aproveitar <em>legalmente</em> todos os benefícios
+                    previstos na lei. Este livro é o condensar dessa experiência — tudo o que eu gostava
+                    que um profissional liberal soubesse <strong>antes</strong> de eu bater à porta.
+                </p>
+
+                <div class="credentials">
+                    <span class="credential"><strong>40 anos</strong> na AT</span>
+                    <span class="credential">Inspeção Tributária</span>
+                    <span class="credential">Aposentado em 2025</span>
+                    <span class="credential">Formador credenciado</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PRECOS -->
+<section class="precos" id="precos">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Pré-venda</span>
+            <h2>Escolhe o formato que preferes</h2>
+            <p>Quem reserva agora tem <strong>40% de desconto</strong> no lançamento oficial. Só a pagar quando o livro estiver pronto.</p>
+        </div>
+
+        <div class="precos-grid">
+            <div class="preco-card">
+                <div class="preco-nome">Digital</div>
+                <div class="preco-desc">E-book em PDF e EPUB. Acesso imediato no lançamento.</div>
+                <div class="preco-valor">
+                    <span class="old">33€</span>
+                    <span class="currency">€</span>
+                    <strong>19,90</strong>
+                </div>
+                <span class="preco-badge">Pré-venda · 40% off</span>
+                <ul class="preco-features">
+                    <li>E-book PDF + EPUB</li>
+                    <li>18 capítulos + 6 anexos</li>
+                    <li>Atualizações gratuitas (1 ano)</li>
+                    <li class="no">Calculadoras Excel</li>
+                    <li class="no">Consultoria 1:1</li>
+                </ul>
+            </div>
+
+            <div class="preco-card featured">
+                <div class="preco-nome">Completo</div>
+                <div class="preco-desc">E-book + ferramentas práticas + checklists.</div>
+                <div class="preco-valor">
+                    <span class="old">58€</span>
+                    <span class="currency">€</span>
+                    <strong>34,90</strong>
+                </div>
+                <span class="preco-badge">Pré-venda · 40% off</span>
+                <ul class="preco-features">
+                    <li>Tudo da versão Digital</li>
+                    <li>Calculadoras Excel (IRS Cat.B)</li>
+                    <li>Comparador de regimes</li>
+                    <li>Checklists imprimíveis por profissão</li>
+                    <li>Calendário fiscal 2026/2027</li>
+                    <li class="no">Consultoria 1:1</li>
+                </ul>
+            </div>
+
+            <div class="preco-card">
+                <div class="preco-nome">Premium</div>
+                <div class="preco-desc">Tudo + consultoria personalizada com o autor.</div>
+                <div class="preco-valor">
+                    <span class="old">149€</span>
+                    <span class="currency">€</span>
+                    <strong>89,90</strong>
+                </div>
+                <span class="preco-badge">Pré-venda · 40% off</span>
+                <ul class="preco-features">
+                    <li>Tudo da versão Completo</li>
+                    <li><strong>30min de consultoria 1:1</strong></li>
+                    <li>Análise do teu caso concreto</li>
+                    <li>Via Zoom ou presencial</li>
+                    <li>Revisão do teu regime atual</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EMAIL CAPTURE -->
+<section class="capture" id="subscrever">
+    <div class="container capture-inner">
+        <span class="section-label" style="color:var(--gold);">Lista VIP</span>
+        <h2>Reserva o teu lugar na <em>pré-venda</em></h2>
+        <p>Deixa o teu email e sê o primeiro a saber quando o livro for lançado. Garante o desconto de 40% e recebe um <strong>capítulo-amostra grátis</strong>.</p>
+
+        <form class="capture-form" id="leadForm" onsubmit="handleLeadSubmit(event)">
+            <input type="text" id="leadName" placeholder="O teu nome" required>
+            <input type="email" id="leadEmail" placeholder="email@exemplo.pt" required>
+            <select id="leadProfession">
+                <option value="">Qual é a tua profissão?</option>
+                <option value="saude">Saúde (Médico/Dentista/Psicólogo/etc)</option>
+                <option value="advogado">Advogado / Solicitador</option>
+                <option value="arquiteto">Arquiteto / Engenheiro</option>
+                <option value="consultor">Consultor / Formador</option>
+                <option value="criativo">Criativo (Fotógrafo/Designer/etc)</option>
+                <option value="it">Programador / IT</option>
+                <option value="outro">Outra</option>
+            </select>
+            <button type="submit" id="leadSubmitBtn">Quero o desconto 👉</button>
+        </form>
+
+        <p class="capture-benefit">🔒 Sem spam · Podes cancelar a qualquer momento · Não pagas nada agora</p>
+        <div id="captureMessage"></div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">FAQ</span>
+            <h2>Perguntas frequentes</h2>
+        </div>
+        <div class="faq-list">
+            <div class="faq-item" onclick="this.classList.toggle('open')">
+                <div class="faq-q">Quando é que o livro é lançado?</div>
+                <div class="faq-a">A previsão é Q3 de 2026. Quem subscrever a lista de pré-venda recebe o livro em primeira mão, com desconto, e um capítulo-amostra durante a fase de escrita.</div>
+            </div>
+            <div class="faq-item" onclick="this.classList.toggle('open')">
+                <div class="faq-q">Tenho de pagar agora alguma coisa?</div>
+                <div class="faq-a">Não. A pré-venda é apenas uma manifestação de interesse. Só pagas quando o livro for lançado, e com 40% de desconto sobre o preço final.</div>
+            </div>
+            <div class="faq-item" onclick="this.classList.toggle('open')">
+                <div class="faq-q">Este guia substitui um contabilista?</div>
+                <div class="faq-a">Não substitui. Complementa. Vais entender o que o teu contabilista faz (ou deveria fazer), identificar erros que custam dinheiro, e tomar decisões melhor informadas. Muitos profissionais liberais em Cat. B nem sequer precisam de contabilista — e este livro ajuda-te a perceber se é o teu caso.</div>
+            </div>
+            <div class="faq-item" onclick="this.classList.toggle('open')">
+                <div class="faq-q">O livro está actualizado para 2026/2027?</div>
+                <div class="faq-a">Sim. Todas as leis, coeficientes, escalões e procedimentos referem-se à legislação em vigor em 2026. Quem compra tem acesso a actualizações grátis durante 1 ano.</div>
+            </div>
+            <div class="faq-item" onclick="this.classList.toggle('open')">
+                <div class="faq-q">Posso ter certeza de que é credível?</div>
+                <div class="faq-a">O autor foi Inspetor Tributário durante 40 anos na Autoridade Tributária, com especialização na análise fiscal de profissionais liberais. Toda a informação é baseada em legislação oficial, diretivas internas da AT e casos reais da sua experiência profissional.</div>
+            </div>
+            <div class="faq-item" onclick="this.classList.toggle('open')">
+                <div class="faq-q">E se a minha profissão não estiver nos anexos?</div>
+                <div class="faq-a">Os 6 anexos cobrem ~90% dos profissionais liberais em Portugal. Os restantes 18 capítulos aplicam-se a todas as profissões — toda a lógica fiscal é igual. Se tens uma profissão muito específica, podemos estudar incluir um anexo adicional.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3 style="font-family:var(--font-serif);">📘 O Guia Completo do Profissional Liberal</h3>
+                <p>Por João Fialho · ex-Inspetor AT · 40 anos de experiência em Inspeção Tributária.</p>
+            </div>
+            <div>
+                <h4>Conteúdo</h4>
+                <ul>
+                    <li><a href="#conteudo">Capítulos</a></li>
+                    <li><a href="#autor">Autor</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="mailto:kissifur.ie@gmail.com">Email</a></li>
+                    <li><a href="#subscrever">Pré-venda</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 João Fialho. Todos os direitos reservados.
+            <div class="version">Versão 1, em 15.04.2026</div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const SUPABASE_URL = 'https://ztixwjxpxjejvcffupcu.supabase.co';
+    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0aXh3anhweGplanZjZmZ1cGN1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYxNzUxNDAsImV4cCI6MjA5MTc1MTE0MH0.2XZVL-cjJG2Cq08pxOXZHVN3JYUfYeHo_BKDjVPfEgU';
+
+    var supabase = null;
+    try { supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY); } catch(e) {}
+
+    async function handleLeadSubmit(event) {
+        event.preventDefault();
+        var btn = document.getElementById('leadSubmitBtn');
+        var msg = document.getElementById('captureMessage');
+        var name = document.getElementById('leadName').value.trim();
+        var email = document.getElementById('leadEmail').value.trim().toLowerCase();
+        var profession = document.getElementById('leadProfession').value;
+
+        if (!name || !email) return;
+
+        btn.disabled = true;
+        btn.textContent = 'A enviar...';
+        msg.className = '';
+        msg.innerHTML = '';
+
+        try {
+            if (!supabase) throw new Error('Ligacao indisponivel');
+
+            var { error } = await supabase.from('guia_liberal_leads').insert({
+                email: email,
+                name: name,
+                profession: profession,
+                source: 'landing-prevenda'
+            });
+
+            if (error) {
+                if (error.code === '23505') {
+                    msg.className = 'success';
+                    msg.innerHTML = '✓ Já estás na lista! Receberás notícia em primeira mão.';
+                } else {
+                    throw error;
+                }
+            } else {
+                msg.className = 'success';
+                msg.innerHTML = '✓ Obrigado, ' + name.split(' ')[0] + '! Estás na lista VIP. Em breve receberás o capítulo-amostra.';
+                document.getElementById('leadForm').reset();
+            }
+        } catch(e) {
+            console.error(e);
+            msg.className = 'error';
+            msg.innerHTML = 'Erro ao registar. Tenta novamente ou envia email para kissifur.ie@gmail.com';
+        } finally {
+            btn.disabled = false;
+            btn.textContent = 'Quero o desconto 👉';
+        }
+    }
+</script>
+
+</body>
+</html>
