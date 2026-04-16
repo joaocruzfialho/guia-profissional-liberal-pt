@@ -28,8 +28,8 @@ O Regime Simplificado é o regime **por defeito**. Se abrires atividade e não d
 
 No Regime de Contabilidade Organizada, pagas imposto sobre o **lucro real**: tudo o que faturaste menos tudo o que gastaste (devidamente documentado).
 
-- **Deduzes as despesas reais** — combustível, equipamento, rendas, deslocações, formação, seguros, quotas, software, tudo
-- Obrigatório ter **contabilista certificado** (custo mensal de 80-200€)
+- **Deduzes as despesas reais** — combustível, equipamento, rendas, deslocações, formação, seguros, quotas, software, etc.
+- Obrigatório ter **Contabilista Certificado** 
 - Mais obrigações: dossier fiscal, balanço, demonstrações financeiras
 - Possibilidade de **reportar prejuízos durante 12 anos** — se num ano tiveres prejuízo, esse valor abate ao lucro dos anos seguintes
 
@@ -42,11 +42,11 @@ No Regime de Contabilidade Organizada, pagas imposto sobre o **lucro real**: tud
 | **Limite de rendimento** | Até 200.000€/ano | Sem limite |
 | **Obrigatório quando** | É o regime por defeito | Rendimento > 200.000€ (2 anos consecutivos) ou > 250.000€ (1 ano) |
 | **Pode-se optar voluntariamente?** | Sim (é o padrão) | Sim, mesmo abaixo de 200.000€ |
-| **Contabilista obrigatório?** | Não | Sim |
+| **Contabilista Certificado obrigatório?** | Não | Sim |
 | **Balanço total** | < 500.000€ | Sem limite |
 | **Residência fiscal** | Obrigatória em Portugal | Qualquer |
 
-> **💡 Dica do Inspetor:** Muita gente pensa que o Regime de Contabilidade Organizada "é para empresas". **Não é.** Qualquer profissional liberal pode optar pelo Regime de Contabilidade Organizada, mesmo que fature 15.000€/ano. A questão é: **compensa?**
+> **💡 Dica do Inspetor:** Muita gente pensa que o Regime de Contabilidade Organizada "é só para empresas". **Não é assim.** Qualquer profissional liberal pode optar pelo Regime de Contabilidade Organizada, mesmo que fature 15.000€/ano. A questão é: **compensa?**
 
 ---
 
@@ -72,9 +72,9 @@ Os coeficientes são fixados no **artigo 31.º do Código do IRS**:
 
 **Para a grande maioria dos profissionais liberais** — médicos, advogados, arquitectos, engenheiros, psicólogos, designers, fotógrafos, programadores, consultores, formadores — **o coeficiente é 0,75**.
 
-Isto quer dizer: o Estado presume que **só 25% do teu rendimento bruto são despesas**. Os outros 75% são "lucro" e pagam IRS.
+Isto quer dizer: o Estado presume que **só 25% do teu rendimento bruto são despesas**. Os outros 75% são "rendimento tributável" e está sujeito a IRS.
 
-> **⚠️ Atenção:** Se as tuas despesas reais forem superiores a 25% do rendimento bruto, estás potencialmente a pagar imposto a mais no Regime Simplificado. É aqui que o Regime de Contabilidade Organizada pode compensar.
+> **⚠️ Atenção:** Se as tuas despesas reais forem superiores a 25% do rendimento bruto, estás potencialmente a pagar imposto a mais no Regime Simplificado. É aqui que o Regime de Contabilidade Organizada pode compensar. No entanto, isso tem que ser visto caso a caso.
 
 ---
 
@@ -150,7 +150,7 @@ Todas as despesas **comprovadamente** relacionadas com a atividade profissional:
 
 Se num ano tiveres mais despesas do que receitas (investimento inicial, compra de equipamento grande, ano fraco), o **prejuízo pode ser deduzido ao lucro dos 12 anos seguintes**. No Regime Simplificado, isto não existe.
 
-> **📌 Caso Real:** Uma arquitecta gastou 25.000€ no primeiro ano entre equipamento, software BIM e formação. Faturou apenas 12.000€. No Regime de Contabilidade Organizada, declarou prejuízo de 13.000€ — que abateu nos três anos seguintes, quando a faturação subiu para 40.000€/ano. Resultado: **poupou mais de 4.000€ de IRS nesses 3 anos**. Se estivesse no Regime Simplificado, teria pago imposto sobre 9.000€ (12.000€ × 0,75) no primeiro ano — sem poder deduzir nada do investimento.
+> **📌 Caso Real:** Uma arquitecta gastou 50.000€ no primeiro ano entre equipamento, software e formação. Faturou apenas 20.000€. No Regime de Contabilidade Organizada, declarou prejuízo de 30.000€ — que abateu nos três anos seguintes, quando a faturação subiu para valores mais elevados e obteve Lucro Tributável. Resultado: **poupou milhares de euros em IRS nesses 3 anos**. Se estivesse no Regime Simplificado, teria pago imposto sobre 15.000€ (20.000€ × 0,75) logo no primeiro ano, sem poder deduzir nada do investimento.
 
 ---
 
@@ -163,7 +163,7 @@ Aqui está o coração deste capítulo. Simulei **seis cenários reais** para pr
 - Coeficiente 0,75 no Regime Simplificado
 - Escalões de IRS de 2026
 - Sem outras deduções pessoais relevantes
-- Custo de contabilista no Regime de Contabilidade Organizada: 100€/mês (1.200€/ano)
+- Custo de Contabilista certificado no Regime de Contabilidade Organizada: 100€/mês (1.200€/ano)
 
 ### Cenário 1: Faturação 15.000€ | Despesas 2.500€
 
@@ -194,7 +194,7 @@ Aqui está o coração deste capítulo. Simulei **seis cenários reais** para pr
 | Poupança IRS estimada | — | ~700-900€ |
 | Custo contabilista | 0€ | 1.200€ |
 
-**Veredicto: Quase empatado.** A poupança fiscal mal cobre o custo do contabilista. Despesas de 10.000€ = 28,5% da faturação — apenas ligeiramente acima dos 25%.
+**Veredicto: Quase empatado.** A poupança fiscal mal cobre o custo do Contabilista certificado. Despesas de 10.000€ = 28,5% da faturação — apenas ligeiramente acima dos 25%.
 
 ### Cenário 4: Faturação 50.000€ | Despesas 18.000€
 
@@ -205,7 +205,7 @@ Aqui está o coração deste capítulo. Simulei **seis cenários reais** para pr
 | Poupança IRS estimada | — | ~2.200-2.800€ |
 | Custo contabilista | 0€ | 1.200€ |
 
-**Veredicto: Regime de Contabilidade Organizada compensa claramente.** Despesas de 18.000€ = 36% da faturação. A poupança supera o custo do contabilista em mais de 1.000€.
+**Veredicto: Regime de Contabilidade Organizada compensa claramente.** Despesas de 18.000€ = 36% da faturação. A poupança supera o custo do Contabilista Certificado em mais de 1.000€.
 
 ### Cenário 5: Faturação 80.000€ | Despesas 30.000€
 
@@ -260,7 +260,7 @@ Mas atenção: nos 25% do Regime de Contabilidade Organizada, **inclui o custo d
 
 1. Submeteres **declaração de alterações** no Portal das Finanças
 2. Prazo: **até 31 de março** do ano em que queres que a mudança produza efeitos
-3. Contratares um **contabilista certificado** (TOC/CC)
+3. Contratares um **Contabilista Certificado** (TOC/CC)
 4. A partir desse momento, manténs-te no Regime de Contabilidade Organizada indefinidamente — salvo nova declaração de alterações
 
 ### Do Regime de Contabilidade Organizada para o Regime Simplificado
@@ -272,7 +272,7 @@ Mas atenção: nos 25% do Regime de Contabilidade Organizada, **inclui o custo d
 ### Transição forçada para o Regime de Contabilidade Organizada
 
 Passas **obrigatoriamente** para o Regime de Contabilidade Organizada se:
-- Ultrapassares **200.000€ de rendimento bruto** durante **dois anos consecutivos**, OU
+- Ultrapassares **200.000€ de rendimento bruto** durante **dois anos consecutivos**, ou
 - Ultrapassares **250.000€** num **único ano**
 
 > **⚠️ Atenção:** A mudança de regime aplica-se **ao ano inteiro**. Não há regimes mistos. Se entregas a declaração de alterações até 31 de março de 2027, todo o ano de 2027 já é tributado pelo novo regime.
@@ -283,7 +283,7 @@ Passas **obrigatoriamente** para o Regime de Contabilidade Organizada se:
 
 Se estás a considerar mudar para o Regime de Contabilidade Organizada, tem isto em conta:
 
-### Honorários do contabilista certificado
+### Honorários do Contabilista Certificado
 
 | Tipo de profissional | Custo mensal típico | Custo anual |
 |----------------------|---------------------|-------------|
@@ -295,12 +295,12 @@ Se estás a considerar mudar para o Regime de Contabilidade Organizada, tem isto
 
 No Regime de Contabilidade Organizada, além do IRS anual, tens:
 
-- **Dossier fiscal** — organizado pelo contabilista
+- **Dossier fiscal** — organizado pelo Contabilista Certificado
 - **IES (Informação Empresarial Simplificada)** — declaração anual
-- **Software de contabilidade certificado** — normalmente incluído nos honorários do contabilista
+- **Software de contabilidade certificado** — normalmente incluído nos honorários do Contabilista Certificado
 - **Arquivo documental** — guardar toda a documentação durante **10 anos**
 
-> **📌 Caso Real:** Um programador freelancer com 45.000€ de faturação e apenas 3.000€ de despesas reais (portátil novo e internet) decidiu ir para o Regime de Contabilidade Organizada "porque um amigo disse que era melhor." Resultado: pagou 1.500€/ano de contabilista para deduzir 4.500€ em despesas (3.000€ + 1.500€ do contabilista). No Regime Simplificado, o Estado já presumia 11.250€ de despesas (25% de 45.000€). **Perdeu dinheiro durante 3 anos até perceber e voltar para o Regime Simplificado.** Custo total da brincadeira: ~4.500€ em contabilista + mais ~2.000€ de IRS extra. Quase 7.000€ desperdiçados.
+> **📌 Caso Real:** Um programador freelancer com 45.000€ de faturação e apenas 3.000€ de despesas reais (portátil novo e internet) decidiu ir para o Regime de Contabilidade Organizada "porque um amigo disse que era melhor". Resultado: pagou 1.500€/ano de contabilista para deduzir 4.500€ em despesas (3.000€ + 1.500€ do contabilista). No Regime Simplificado, o Estado já presumia 11.250€ de despesas (25% de 45.000€). **Perdeu dinheiro durante 3 anos até perceber e voltar para o Regime Simplificado.** Custo total da brincadeira: ~4.500€ em pagamento dos serviços do Contabilista Certificado + mais ~2.000€ de IRS extra. Quase 7.000€ desperdiçados.
 
 ---
 
@@ -332,7 +332,9 @@ No primeiro ano, **não tens histórico de rendimentos**. O regime por defeito �
 
 ### Quem é reformado e ainda trabalha
 
-Podes estar no Regime Simplificado sem limite de idade. A reforma não afecta a escolha do regime.
+Podes estar no Regime Simplificado sem limite de idade. A reforma não afecta a escolha do regime. 
+
+*** Dica de Inspetor *** Se já estiveres aposentado, podes solicitar isenção de pagamento de contribuições para a Segurança Social a título definitivo. Faz isso logo depois de declarares o início de atividade nas Finanças. Nesse caso, vais a um serviço da Segurança Social e levas contigo, além do Cartão de Cidadão, essa mesma Declaração de Início de Atividade, uma declaração onde conste o montante mensal da tua Reforma (retiras essa declaração online, na Segurança Social Direta) e ainda a Declaração Modelo RC 3001-DGSS da Segurança Social que deves preencher com os teus dados pessoais.
 
 ---
 
@@ -344,7 +346,7 @@ Podes estar no Regime Simplificado sem limite de idade. A reforma não afecta a 
 | Tenho despesas altas (> 25% da faturação)? | ❌ Pode sair caro | ✅ **Melhor** |
 | Quero simplicidade máxima? | ✅ **Ideal** | ❌ Mais burocracia |
 | Fiz um investimento grande este ano? | ❌ Não deduzes | ✅ **Deduz tudo + prejuízo 12 anos** |
-| Faturo < 30.000€ e trabalho sozinho? | ✅ **Quase sempre melhor** | ❌ Contabilista come o ganho |
+| Faturo < 30.000€ e trabalho sozinho? | ✅ **Quase sempre melhor** | ❌ Contabilista "come" o ganho |
 | Faturo > 50.000€ com despesas significativas? | ❌ Analisa os números | ✅ **Provavelmente melhor** |
 
 ### As 5 perguntas-chave antes de decidir
@@ -352,11 +354,11 @@ Podes estar no Regime Simplificado sem limite de idade. A reforma não afecta a 
 1. **Quanto faturas por ano?** (previsão realista dos próximos 3 anos)
 2. **Quanto gastas em despesas profissionais reais?** (lista-as todas)
 3. **Essas despesas são superiores a 25% da faturação?** (se sim → Regime de Contabilidade Organizada)
-4. **A poupança fiscal no Regime de Contabilidade Organizada supera o custo do contabilista?** (1.200-2.400€/ano)
+4. **A poupança fiscal no Regime de Contabilidade Organizada supera o custo do Contabilista Certificado?** (1.200-2.400€/ano)
 5. **Esperas ter um ano com investimento grande?** (se sim → Regime de Contabilidade Organizada com reporte de prejuízos)
 
 Se a resposta a TODAS estas perguntas for "valores baixos" → **fica no Regime Simplificado**.
-Se duas ou mais respostas apontam para valores altos → **pede uma simulação a um contabilista** antes de mudar.
+Se duas ou mais respostas apontam para valores altos → **pede uma simulação a um Contabilista Certificado** antes de mudar.
 
 ---
 
