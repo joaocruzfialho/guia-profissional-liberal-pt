@@ -1,8 +1,8 @@
 # Capítulo 4 — IRS Categoria B: Como és tributado
 
-> *"O IRS é o imposto que mais dinheiro te tira. É também aquele sobre o qual tens mais controlo — se souberes como funciona."*
+> *"O IRS é o imposto que mais dinheiro te tira. É também aquele sobre o qual tens mais controlo, se souberes como funciona."*
 
-Nos capítulos anteriores, preparámos o terreno: abriste atividade, escolheste o teu CAE, o teu regime de IVA e decidiste entre Regime Simplificado e Regime de Contabilidade Organizada. Agora, vamos ao que interessa: **quanto vais pagar de IRS** e como é que esse valor é calculado.
+Nos capítulos anteriores, preparámos o terreno: abriste atividade, escolheste o teu CAE ou Código IRS, o teu regime de IVA e decidiste entre Regime Simplificado e Regime de Contabilidade Organizada. Agora, vamos ao que interessa: **quanto vais pagar de IRS** e como é que esse valor é calculado.
 
 Este capítulo é técnico. Vou explicar-te como a Autoridade Tributária calcula o teu imposto, passo a passo, desde o rendimento bruto até ao valor final que pagas (ou recebes de reembolso). Sem mistérios, sem surpresas.
 
@@ -30,7 +30,7 @@ Se és profissional liberal, **os teus rendimentos são da Categoria B**. Isto i
 - Mais-valias de bens afectos à atividade
 - Atos isolados (prestações pontuais, mesmo sem atividade aberta)
 
-> **⚠️ Atenção:** Se és trabalhador dependente (Categoria A) **e também** profissional liberal (Categoria B), ambos os rendimentos são somados e tributados em conjunto. A Categoria B não é uma "ilha" separada — entra tudo no mesmo bolo.
+> **⚠️ Atenção:** Se és trabalhador dependente (Categoria A) **e também** profissional liberal (Categoria B), ambos os rendimentos são somados e tributados em conjunto. A Categoria B não é uma "ilha" separada, entra tudo no mesmo bolo.
 
 ---
 
@@ -226,7 +226,7 @@ O psicólogo com 40.000€ de faturação no Regime Simplificado:
 | **IRS Final** | 3.506,38€ − 10.000€ | **−6.493,62€** |
 | **Resultado** | | **Reembolso de 6.493,62€** |
 
-> **📌 Caso Real:** Este exemplo mostra algo que vejo com enorme frequência — profissionais liberais que estão a "emprestar" ao Estado milhares de euros por ano, sem necessidade. A retenção de 25% sobre 40.000€ é brutal (10.000€) e o imposto real é apenas 3.506€. A diferença (6.494€) esteve na posse do Estado durante o ano inteiro. Este dinheiro podia ter estado na tua conta a render.
+> **📌 Caso Real:** Este exemplo mostra algo que via com alguma frequência: profissionais liberais que estão a "emprestar" ao Estado milhares de euros por ano, sem necessidade. A retenção de 25% sobre 40.000€ é brutal (10.000€) e o imposto real é apenas 3.506€. A diferença (6.494€) esteve na posse do Estado durante o ano inteiro. Este dinheiro podia ter estado na tua conta a render.
 
 ---
 
@@ -419,7 +419,7 @@ Vamos fazer uma simulação completa para um profissional liberal típico, do pr
 
 ## 4.14. Erros frequentes na declaração de IRS Categoria B
 
-Da minha experiência na Inspeção, os erros mais comuns:
+Da minha experiência na Inspeção, estes os erros mais comuns:
 
 ### ❌ Erro 1: Não declarar rendimentos do estrangeiro
 Se faturas a um cliente em França, Alemanha ou EUA, esse rendimento **é declarado em Portugal** no Anexo B. Muitos pensam que "como já pagaram imposto lá, não precisam de declarar cá". Errado — declaras e depois deduzes o imposto pago no estrangeiro (para evitar dupla tributação).
